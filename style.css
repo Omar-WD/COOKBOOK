@@ -27,14 +27,13 @@
   font-size: 1.5em;
   text-align: center;
 }
-
 .fa-solid {
   color: rgb(192, 132, 122);
 }
 
 
 /*lisa-separation-line*/
-.kor-separation-line {
+.kor-separation-line1 {
   margin-bottom: 16px;
   width: 85%;
   margin-top: 12px;
@@ -42,21 +41,20 @@
   width: 100%;
 }
 
-/*line2*/
+/*lisa-line2*/
 .line2 {
   text-align: center;
 }
 
 
-
-/*line3*/
+/*lisa-line3*/
 .line3 {
   font-size: x-large;
   margin-bottom: 2%;
   text-align: center;
 }
 
-/*line4*/
+/*lisa-line4*/
 .line4 {
   display: flex;
   justify-content: center;
@@ -67,7 +65,7 @@
 }
 
 
-/*line5*/
+/*lisa-line5*/
 .line5 {
 display: flex;
 flex-direction: row;
@@ -84,7 +82,7 @@ margin-bottom: 3%;
   width: 30%;
 }
 
-/*line6-table*/
+/*lisa-line6-table*/
 .line6 {
   width: 60%;
   margin-bottom: 20px;
@@ -105,7 +103,8 @@ margin-bottom: 3%;
   word-wrap: break-word;
 }
 
-/*lisa-button*/
+
+/*lisa-lisa-button*/
 .kor-btn1 {
   width: 60%;
 }
@@ -119,7 +118,50 @@ margin-bottom: 3%;
   margin-left: 40%;
 }
 
+/*lisa-media-query*/
+@media screen and (max-width: 800px) {
+.recipe_title {
+font-weight: 600;
+}
 
+.line3 {
+font-size: large;
+}
+
+
+.line5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.line-5-name {
+  width: 100%;
+  margin-bottom: 5%;
+  border-bottom-color: aqua;
+  display: none;
+}
+
+.line-5-time {
+  width: 100%;
+}
+
+.kor-separation-line2 {
+  display: block;
+}
+
+.icon-box {
+  font-size: 1.2em;
+  opacity: 0.5;
+}
+
+.line6 {
+  max-width: %;
+}
+
+
+
+ }
 
 
 /*lisa-end*/ 
