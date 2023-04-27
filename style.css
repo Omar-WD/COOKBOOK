@@ -5,7 +5,7 @@
    width: 100%;
 }
 
-/*lisa*/ 
+/*lisa-start*/ 
 .kor-body {
   width: 100vw;
   display: flex;
@@ -104,5 +104,5 @@ button {
 .kor-button {
   margin-bottom: 120px;
 }
-
+/*lisa-end*/ 
 
