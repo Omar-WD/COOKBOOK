@@ -88,12 +88,21 @@ margin-bottom: 3%;
 .line6 {
   width: 60%;
   margin-bottom: 20px;
- 
+}
+
+.line6 {
+  margin-left: 20%;
 }
 
 table {
   table-layout:fixed;
   word-wrap: break-word;
+}
+
+
+#kor-table {
+  color: darkslateblue ;
+  border: darkmagenta
 }
 
 /*lisa-button*/
@@ -104,5 +113,13 @@ button {
 .kor-button {
   margin-bottom: 120px;
 }
+
+#kor-button-inside {
+  width: 20%; 
+  margin-left: 40%;
+}
+
+
+
 /*lisa-end*/ 
 
