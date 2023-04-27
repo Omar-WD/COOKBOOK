@@ -94,19 +94,19 @@ margin-bottom: 3%;
   margin-left: 20%;
 }
 
-table {
-  table-layout:fixed;
-  word-wrap: break-word;
-}
-
 
 #kor-table {
   color: darkslateblue ;
   border: darkmagenta
 }
 
+#kor-table {
+  table-layout:fixed;
+  word-wrap: break-word;
+}
+
 /*lisa-button*/
-button {
+.kor-btn1 {
   width: 60%;
 }
 
@@ -118,6 +118,7 @@ button {
   width: 20%; 
   margin-left: 40%;
 }
+
 
 
 
