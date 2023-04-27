@@ -8,11 +8,13 @@
 /*lisa-main page*/ 
 
 .main-frame {
-  width: 100%;
+  width: 100vw;
+  margin: 0;
   border: 1px red solid;
 }
 
 .logo-title-p {
+  width: 100%;
   border: 1px blue solid;
   display: flex;
   flex-direction: row;
@@ -21,15 +23,73 @@
 .logo-box {
   border: 1px blue solid;
   width: 30%;
-  
+  margin-top: 3%;
 }
 
-/*lisa-title-box*/
 .title-box {
-  border: 1px rgb(24, 24, 160) solid;
+  border: 5px rgb(24, 24, 160) solid;
   width: 70%;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  font-size: xx-large;
 }
+
+.title-box-c1 {
+  border: 5px rgb(16, 32, 126) solid;
+  width: 50%
+
+
+}
+
+
+.title-box-c2 {
+  width: 80%;
+  object-fit: cover;
+  padding-top: 2%;
+}
+
+
+/*lisa-line6-table*/
+.main-pg-table {
+  font-size: medium;
+  text-align: center;
+}
+
+#kor-table {
+  color: darkslateblue ;
+  border: darkmagenta
+}
+
+#kor-table {
+  table-layout:fixed;
+  word-wrap: break-word;
+}
+
+
+/*lisa-main-page-button*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-footer {
   border: 1px rgb(24, 24, 160) solid;
