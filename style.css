@@ -5,7 +5,7 @@
    width: 100%;
 }
 
-/*main page*/ 
+/*lisa-main page*/ 
 
 .main-frame {
   width: 100%;
@@ -24,7 +24,7 @@
   
 }
 
-
+/*lisa-title-box*/
 .title-box {
   border: 1px rgb(24, 24, 160) solid;
   width: 70%;
@@ -34,6 +34,25 @@
 .main-footer {
   border: 1px rgb(24, 24, 160) solid;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
