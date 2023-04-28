@@ -1,6 +1,291 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-shadow: black 0px 0px 20px;    
+   padding: 0;
+   color: black;
+   box-sizing: border-box;
+   width: 100%;
+   text-shadow: 5px 5px 10px gray ;
+}
+
+/*lisa-main page*/ 
+
+.main-frame {
+  width: 100vw;
+  margin: 0;
+  border: 1px red solid;
+}
+
+.logo-title-p {
+  width: 100%;
+  border: 2px gray solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-box {
+  border: 2px gray solid;
+  width: 30%;
+  margin-top: 3%;
+}
+
+.title-box {
+  border: 2px gray solid;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  font-size: xx-large;
+}
+
+.title-box-c1 {
+  width: 50%
+
+
+}
+
+
+.title-box-c2 {
+  width: 80%;
+  object-fit: cover;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+/*lisa-line6-table*/
+.main-pg-table {
+  font-size: medium;
+  text-align: center;
+}
+
+#kor-table {
+  color: darkslateblue ;
+  border: darkmagenta
+}
+
+#kor-table {
+  table-layout:fixed;
+  word-wrap: break-word;
+}
+
+
+/*lisa-main-page-button*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*lisa-start*/ 
+.kor-body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.kor-background-size {
+  width: 100vw;
+}
+
+/*lisa-line1*/
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 1.5em;
+  text-align: center;
+}
+.fa-solid {
+  color: rgb(192, 132, 122);
+}
+
+
+/*lisa-separation-line*/
+.kor-separation-line1 {
+  margin-bottom: 16px;
+  width: 85%;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+/*lisa-line2*/
+.line2 {
+  text-align: center;
+}
+
+
+/*lisa-line3*/
+.line3 {
+  font-size: x-large;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+/*lisa-line4*/
+.line4 {
+  display: flex;
+  justify-content: center;
+}
+.line4-img {
+  width: 60%;
+  object-fit: cover;
+}
+
+
+/*lisa-line5*/
+.line5 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+
+.line-5-name {
+  width: 30%;
+}
+
+.line-5-time {
+  width: 30%;
+}
+
+/*lisa-line6-table*/
+.line6 {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+#kor-table {
+  color: darkslateblue ;
+  border: darkmagenta
+}
+
+#kor-table {
+  table-layout:fixed;
+  word-wrap: break-word;
+}
+
+
+/*lisa-lisa-button*/
+.kor-btn1 {
+  width: 60%;
+}
+
+.kor-button {
+  margin-bottom: 120px;
+}
+
+#kor-button-inside {
+  width: 20%; 
+  margin-left: 40%;
+}
+
+/*lisa-media-query*/
+@media screen and (max-width: 800px) {
+.recipe_title {
+font-weight: 600;
+}
+
+.line3 {
+font-size: large;
+}
+
+
+.line5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.line-5-name {
+  width: 100%;
+  margin-bottom: 5%;
+  border-bottom-color: aqua;
+  display: none;
+}
+
+.line-5-time {
+  width: 100%;
+}
+
+.kor-separation-line2 {
+  display: block;
+}
+
+.icon-box {
+  font-size: 1.2em;
+  opacity: 0.5;
+} 
+
+/*테이블 글자가 위로 늘어나지않게*/
+.table-min-width {
+  min-width: 400px;
+}
+
+
+
+}
+/*lisa-end*/ 
+
+.IconHeader{
+  background-color: #3ad7a28f;
 }
