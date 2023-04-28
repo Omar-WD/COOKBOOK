@@ -1,14 +1,19 @@
 *{
    padding: 0;
-   background-color: bisque;
+   background-color: white; 
    box-sizing: border-box;
    width: 100%;
 }
 
+
+
+
+
+
 /*lisa-main page*/ 
 
 div {
- border: 0.5px rgb(195, 198, 199) solid;
+ border: 0.5px rgb(16, 9, 121) solid;
   margin: 0;
 }
 .main-frame {
@@ -72,7 +77,6 @@ div {
   padding-right: 0;
 }
 
-/*lisa-main-page-table*/
 .main-pg-table {
   font-size: medium;
   text-align: center;
@@ -99,48 +103,13 @@ div {
 }
 
 
-/*main-page-media-query*/
+/*lisa-main-page-media-query*/
 @media screen and (max-width: 800px) {
   .title-box {
   min-width: 600px;
 }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*lisa-main-end*/ 
 
 
 
@@ -298,9 +267,6 @@ font-size: large;
 .table-min-width {
   min-width: 400px;
 }
-
-
-
 }
 /*lisa-end*/ 
 
