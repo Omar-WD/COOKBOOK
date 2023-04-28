@@ -1,8 +1,9 @@
 *{
    padding: 0;
-   background-color: bisque;
+   color: black;
    box-sizing: border-box;
    width: 100%;
+   text-shadow: 5px 5px 10px gray ;
 }
 
 /*lisa-main page*/ 
@@ -273,7 +274,7 @@ font-size: large;
 .icon-box {
   font-size: 1.2em;
   opacity: 0.5;
-}
+} 
 
 /*테이블 글자가 위로 늘어나지않게*/
 .table-min-width {
@@ -285,3 +286,6 @@ font-size: large;
 }
 /*lisa-end*/ 
 
+.IconHeader{
+  background-color: #3ad7a28f;
+}
