@@ -284,23 +284,3 @@ font-size: large;
   background-color: #3ad7a28f;
 }
 
-/*추가*/
-
-
-.kor-body {
-
-}
-
-@include media-breakpoint-up(md) {
-  .kor-body {
-
-  }
-}
-
-
-
-
-
-
-/*지우기*/
-
