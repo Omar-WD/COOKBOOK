@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ravioli</title>
     <link rel="stylesheet" href="../../style.css" />
     <link rel="stylesheet" href="../../style1.css" />
- <!-- fontawesome -->
- <script src="https://kit.fontawesome.com/eb2f7c5e0f.js" crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/eb2f7c5e0f.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- bootstrap -->
     <link
       rel="stylesheet"
@@ -24,135 +27,341 @@
     />
   </head>
   <body class="bg-light bg-opacity-75">
-
-     <!--Nav Bars-->
-     <div class=" IconHeader line1 pb-2">
-        <div class="recipe_page_header ">
-            <div class="icon-box">
-                <a href="#"><i class="fa-solid fa-pencil text-dark"></i></a>
-                <a href="#"><i class="fa-sharp fa-solid fa-cart-plus text-dark"></i></a>
-                <a href="#"><i class="fa-sharp fa-solid fa-calendar-plus recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-ruler recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-share-nodes recipe_action_icon text-dark" id="share-button "></i></a>
-                <a href="#"><i class="fa-solid fa-regular fa-file-pdf recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-trash recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-ellipsis-vertical recipe_action_icon text-dark"></i></a>
-            </div>
+    <header>
+      <!--Nav Bars-->
+      <div class="IconHeader line1 pb-2">
+        <div class="recipe_page_header">
+          <div class="icon-box">
+            <a href="#"><i class="fa-solid fa-pencil text-dark"></i></a>
+            <a href="#"
+              ><i class="fa-sharp fa-solid fa-cart-plus text-dark"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-sharp fa-solid fa-calendar-plus recipe_action_icon text-dark"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-solid fa-up-right-and-down-left-from-center recipe_action_icon text-dark"
+              ></i
+            ></a>
+            <a href="#"
+              ><i class="fa-solid fa-ruler recipe_action_icon text-dark"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-solid fa-share-nodes recipe_action_icon text-dark"
+                id="share-button "
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-solid fa-regular fa-file-pdf recipe_action_icon text-dark"
+              ></i
+            ></a>
+            <a href="#"
+              ><i class="fa-solid fa-trash recipe_action_icon text-dark"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-solid fa-ellipsis-vertical recipe_action_icon text-dark"
+              ></i
+            ></a>
+          </div>
         </div>
-    </div>
+      </div>
+    </header>
 
-
-    <div class="container-fluid">
+    <main>
       <!-- Title section -->
-      <div class="row">
+      <section class="container">
         <div class="row">
-          <h1 class="text-center my-3" >Ravioli with lemon ricotta filling</h1>
-        </div>
-
-        <div class="row">
-          <h1 class="text-center"><small>in a cherry tomato sauce</small></h1>
-        </div>
-      </div>
-
-      <!-- Image section -->
-      <div class="row img-container">
-        <div class="row text-center">
-          <img
-            src="../../images/ravioli.png"
-            class="w-75 h-75 mx-auto"
-            alt="ravioli"
-          />
-        </div>
-      </div>
-
-      <!-- Author  %  Time  -->
-      <div class="row  text-center">
-        <div class="row mx-5">
-          <div class="col-3">
-            <h4>Author</h4>
+          <div class="row text-center text-origin">
+            <h1 class="text-center my-3  fs-1 fs-sm-1">Ravioli with ricotta and lemon</h1>
           </div>
-          <div class="col-9">
-            <h3>Fred Egd</h3>
+
+          <div class="row text-center mt-3 mb-3">
+            <h2 class="text-center">in cherry tomato sauce</h2>
           </div>
         </div>
+      </section>
+      <!-- End Title section -->
 
-        <div class="row mx-5">
-          <div class="col-3">
-            <h5>Est. Time</h5>
-          </div>
-          <div class="col-9">
-            <h4>one Hour</h4>
-          </div>
+      <!--separation-bar-->
+      <hr class="kor-separation-line" />
+
+      <!-- Image and Author section -->
+      <section class="container">
+        <div class="row img-container-fluid">
+          <img src="../../images/ravioli.png" class="w-75 h-75 mx-auto"  alt="ravioli" />
         </div>
 
-        <!-- Ingredients -->
         <div class="row mx-5 my-3">
+          <!-- Author -->
           <div class="col">
-            <div class="row">
-              <div class="col-3"><h4>QUANTITY</h4></div>
-              <div class="col-9"><h4>INGREDIENTS</h4></div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                <h5> first ingredient</h5>
-              
+            <div class="row my-0">
+              <div class="col-1">
+                <i class="fa-solid fa-user-pen fs-5"></i>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
-              </div>
-            </div>
-            <div class="row">
               <div class="col-3">
-                <h5>100gr</h5>
+                <p class="fs-6 text-secondary d-xs">Author:</p>
               </div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
+              <div class="col-8">
+                <p class="text-secondary">Fred Egd</p>
               </div>
             </div>
+
             <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
+              <div class="col-1">
+                <i class="fa-solid fa-hourglass-start fs-5"></i>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
+              <div class="col-3">
+                <p class="fs-6 text-secondary">Prep.Time:</p>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
+              <div class="col-8">
+                <p class="text-secondary">30 min</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <!-- END Image and Author section -->
+
+      <!--separation-bar-->
+      <hr class="kor-separation-line" />
+
+      <!-- Ingredients section-->
+      <section class="container">
+        <div class="row my-1">
+          <h2>Ingredients:</h2>
+        </div>
+        <div class="row mt-5">
+          <p class="text-secondary ">FOR THE PASTA</p>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>2 cups</h6></div>
+          <div class="col-8">
+            <h6>Flour</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>3 large</h6></div>
+          <div class="col-8">
+            <h6>Eggs</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>1/2 teaspoon</h6></div>
+          <div class="col-8">
+            <h6>Salt</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>1 spoon</h6></div>
+          <div class="col-8">
+            <h6>olive oil</h6>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <p class="text-secondary">FOR THE FILLING</p>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>1 cup</h6></div>
+          <div class="col-8">
+            <h6>ricotta cheese</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>1</h6></div>
+          <div class="col-8">
+            <h6>Lemon, zested</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>a pinch</h6></div>
+          <div class="col-8">
+            <h6>salt and pepper</h6>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <p class="text-secondary">FOR THE SAUCE</p>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>1 ts</h6></div>
+          <div class="col-8">
+            <h6>olive oil</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>2</h6></div>
+          <div class="col-8">
+            <h6>garlic cloves, minced</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>2 cups</h6></div>
+          <div class="col-8">
+            <h6>cherry tomatoes</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>1/2 cup</h6></div>
+          <div class="col-8">
+            <h6>vegetable broth</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>a pinch</h6></div>
+          <div class="col-8">
+            <h6>salt and pepper</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>40 gr</h6></div>
+          <div class="col-8">
+            <h6>fresh basil</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right"><h6>50 gr</h6></div>
+          <div class="col-8">
+            <h6>parmesan cheese, grated</h6>
+          </div>
+        </div>
+      </section>
+      <!-- END Ingredients section-->
+      <!--  -->
+      <!--separation-bar-->
+      <hr class="kor-separation-line" />
+      <!--  -->
+      <!-- INSTRUCTIONS -->
+      <section class="container">
+        <div class="row my-1">
+          <h2>Instructions:</h2>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>1</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              In a large mixing bowl, combine the flour and salt. Create a well
+              in the center and add the eggs and olive oil. Using a fork, whisk
+              the eggs and slowly incorporate the flour until a dough forms.
+              Knead the dough for about 5 minutes until it is smooth and
+              elastic. Cover the dough with plastic wrap and let it rest for 30
+              minutes.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>2</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              In a separate mixing bowl, combine the ricotta cheese, lemon zest,
+              salt, and pepper to create the filling. Mix well and set aside.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>3</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              After the dough has rested, cut it into four equal parts. Using a
+              pasta roller or a rolling pin, roll out each piece into a thin
+              sheet. Place teaspoons of the ricotta and lemon filling on one
+              sheet of pasta, leaving about 1 inch of space between each mound
+              of filling.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>4</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              Place the second sheet of pasta on top of the first, pressing down
+              around the filling to seal the edges of the ravioli. Cut the
+              ravioli apart using a knife or a pastry cutter. Repeat with the
+              remaining dough and filling.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>5</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              In a large skillet, heat olive oil over medium heat. Add garlic
+              and sauté until fragrant, about 1 minute.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1 text-right"><h5>6</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              Add cherry tomatoes to the skillet and cook until they start to
+              burst and release their juices, stirring occasionally. This should
+              take about 5-7 minutes.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1 text-right"><h5>7</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              Add broth to the skillet, and stir to combine. Season with salt
+              and pepper to taste.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1 text-right"><h5>8</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              Bring a large pot of salted water to a boil. Add the ravioli and
+              cook for 2-3 minutes until they float to the surface.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1 text-right"><h5>9</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              Using a slotted spoon, transfer the ravioli to the skillet with
+              the cherry tomato sauce. Gently toss the ravioli in the sauce
+              until they are fully coated.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1 text-right"><h5>10</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              Serve hot, garnished with fresh basil leaves and grated Parmesan
+              cheese.
+            </p>
+          </div>
+        </div>
+
+        <div class="row container">
+          <p class="fs-3">
+            Enjoy your homemade ravioli filled with ricotta and lemon in cherry
+            tomato sauce!
+          </p>
+        </div>
+      </section>
+
+      <section class="d-grid gap-2 col-6 mx-auto my-5">
+        <button type="button" class="btn btn-success btn-lg">
+          Share this Recipe
+        </button>
+      </section>
+    </main>
   </body>
 </html>

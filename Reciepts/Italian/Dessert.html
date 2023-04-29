@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tiramisu</title>
     <link rel="stylesheet" href="../../style.css" />
     <link rel="stylesheet" href="../../style1.css" />
- <!-- fontawesome -->
- <script src="https://kit.fontawesome.com/eb2f7c5e0f.js" crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/eb2f7c5e0f.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- bootstrap -->
     <link
       rel="stylesheet"
@@ -24,135 +27,261 @@
     />
   </head>
   <body class="bg-light bg-opacity-75">
-
-     <!--Nav Bars-->
-     <div class=" IconHeader line1 pb-2">
-        <div class="recipe_page_header ">
-            <div class="icon-box">
-                <a href="#"><i class="fa-solid fa-pencil text-dark"></i></a>
-                <a href="#"><i class="fa-sharp fa-solid fa-cart-plus text-dark"></i></a>
-                <a href="#"><i class="fa-sharp fa-solid fa-calendar-plus recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-ruler recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-share-nodes recipe_action_icon text-dark" id="share-button "></i></a>
-                <a href="#"><i class="fa-solid fa-regular fa-file-pdf recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-trash recipe_action_icon text-dark"></i></a>
-                <a href="#"><i class="fa-solid fa-ellipsis-vertical recipe_action_icon text-dark"></i></a>
-            </div>
+    <!-- original recipe: https://anitalianinmykitchen.com/strawberry-tiramisu/ -->
+    <header>
+      <!--Nav Bars-->
+      <div class="IconHeader line1 pb-2">
+        <div class="recipe_page_header">
+          <div class="icon-box">
+            <a href="#"><i class="fa-solid fa-pencil text-dark"></i></a>
+            <a href="#"
+              ><i class="fa-sharp fa-solid fa-cart-plus text-dark"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-sharp fa-solid fa-calendar-plus recipe_action_icon text-dark"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-solid fa-up-right-and-down-left-from-center recipe_action_icon text-dark"
+              ></i
+            ></a>
+            <a href="#"
+              ><i class="fa-solid fa-ruler recipe_action_icon text-dark"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-solid fa-share-nodes recipe_action_icon text-dark"
+                id="share-button "
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-solid fa-regular fa-file-pdf recipe_action_icon text-dark"
+              ></i
+            ></a>
+            <a href="#"
+              ><i class="fa-solid fa-trash recipe_action_icon text-dark"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-solid fa-ellipsis-vertical recipe_action_icon text-dark"
+              ></i
+            ></a>
+          </div>
         </div>
-    </div>
+      </div>
+    </header>
 
-
-    <div class="container-fluid">
+    <main>
       <!-- Title section -->
-      <div class="row">
+      <section class="container">
         <div class="row">
-          <h1 class="text-center my-3" >Ravioli with lemon ricotta filling</h1>
-        </div>
+          <div class="col text-center text-origin">
+            <h1 class="text-center my-3">Tiramisu</h1>
+          </div>
 
-        <div class="row">
-          <h1 class="text-center"><small>in a cherry tomato sauce</small></h1>
+          <div class="row text-center mt-3 mb-3">
+            <h2 class="text-center">with Strawberry</h2>
+          </div>
         </div>
+      </section>
+      <!-- End Title section -->
+
+      <!--separation-bar-->
+      <hr class="kor-separation-line" />
+
+      <!-- Image and Author section -->
+      <section class="container ">
+        <div class="row" >
+          <img src="../../images/tiramisu.jpg" class="w-75 h-75 mx-auto" alt="tiramisu" srcset="">
       </div>
+       
 
-      <!-- Image section -->
-      <div class="row img-container">
-        <div class="row text-center">
-          <img
-            src="../../images/ravioli.png"
-            class="w-75 h-75 mx-auto"
-            alt="ravioli"
-          />
-        </div>
-      </div>
-
-      <!-- Author  %  Time  -->
-      <div class="row  text-center">
-        <div class="row mx-5">
-          <div class="col-3">
-            <h4>Author</h4>
-          </div>
-          <div class="col-9">
-            <h3>Fred Egd</h3>
-          </div>
-        </div>
-
-        <div class="row mx-5">
-          <div class="col-3">
-            <h5>Est. Time</h5>
-          </div>
-          <div class="col-9">
-            <h4>one Hour</h4>
-          </div>
-        </div>
-
-        <!-- Ingredients -->
-        <div class="row mx-5 my-3">
+        <div class="row mx-auto w-75 my-3">
+          <!-- Author -->
           <div class="col">
             <div class="row">
-              <div class="col-3"><h4>QUANTITY</h4></div>
-              <div class="col-9"><h4>INGREDIENTS</h4></div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                <h5> first ingredient</h5>
-              
+              <div class="col-1">
+                <i class="fa-solid fa-user-pen fs-5"></i>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
-              </div>
-            </div>
-            <div class="row">
               <div class="col-3">
-                <h5>100gr</h5>
+                <p class="fs-6 text-secondary ">Author:</p>
               </div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
+              <div class="col-8">
+                <p class="text-secondary">Fred Egd</p>
               </div>
             </div>
+
             <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
+              <div class="col-1">
+                <i class="fa-solid fa-hourglass-start fs-5"></i>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
+              <div class="col-3">
+                <p class="fs-6 text-secondary">Prep.Time:</p>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-3">  <h5>100gr</h5></div>
-              <div class="col-9">
-                 <h5> first ingredient</h5>
+              <div class="col-8">
+                <p class="text-secondary">30 min</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <!-- END Image and Author section -->
+
+      <!--separation-bar-->
+      <hr class="kor-separation-line" />
+
+      <!-- Ingredients section-->
+      <section class="container">
+        <div class="row my-1">
+          <h2>Ingredients:</h2>
+        </div>
+        <div class="row mt-3">
+          <p class="text-secondary">STRAWBERRY JUICE</p>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>2 cups</h6></div>
+          <div class="col-9">
+            <h6>chopped Strawberry</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>1 spoon</h6></div>
+          <div class="col-9">
+            <h6>sugar</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>1/2 cup</h6></div>
+          <div class="col-9">
+            <h6>cold water</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>1 teaspoon</h6></div>
+          <div class="col-9">
+            <h6>lemon juice</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>1 teaspoon</h6></div>
+          <div class="col-9">
+            <h6>lemon juice</h6>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <p class="text-secondary">CREAM MIXTURE</p>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>1</h6></div>
+          <div class="col-9">
+            <h6>pasteurized egg</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>1 cup</h6></div>
+          <div class="col-9">
+            <h6>mascarpone (225 grams)</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>1 cup</h6></div>
+          <div class="col-9">
+            <h6>whole cream (230 grams)</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>2 Spoons</h6></div>
+          <div class="col-9">
+            <h6>powder sugar</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>30</h6></div>
+          <div class="col-9">
+            <h6>Italian Lady finger cookies (approximately)</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-right"><h6>1 cup</h6></div>
+          <div class="col-9">
+            <h6>sliced strawberries</h6>
+          </div>
+        </div>
+      </section>
+      <!-- END Ingredients section-->
+      <!--  -->
+      <!--separation-bar-->
+      <hr class="kor-separation-line" />
+      <!--  -->
+      <!-- INSTRUCTIONS -->
+      <section class="container">
+        <div class="row my-1">
+          <h2>Instructions:</h2>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>1</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              To make the strawberry juice: Clean and chop the strawberries into
+              small pieces sprinkle with sugar, place strawberries, lemon juice
+              and water in a blender, blend until smooth, pour into a bowl and
+              set aside.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>2</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              To make the cream mixture: In a medium bowl beat the egg (if
+              using) for approximately 30 seconds then add the sugar, mascarpone
+              and cream, beat on medium until thickened. (approximately 5-10
+              minutes, you don't want it to be too thick or too thin, nice and
+              creamy ).
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>3</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              Putting it all together: Lady Finger Cookies (approximately 30 or
+              more if needed) 1 baking dish (I used 10 x 7 inch / 26 x 17 cm).
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>4</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              In a small bowl add half the strawberry juice to start,(you may
+              have left over strawberry juice, which is great over ice cream or
+              even add a little more sugar and it makes a great drink) dip the
+              lady finger cookies in the juice (turning to coat all the cookie
+              with juice, but don’t leave them submerged in the juice) then
+              arrange cookies on bottom of baking dish and cover with half the
+              cream mixture, cover with the sliced strawberries, repeat cookies
+              for another layer and cover with remaining cream mixture.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-right"><h5>5</h5></div>
+          <div class="col-11">
+            <p class="fs-5">
+              Refrigerate for at least 4-5 hours or even over night. Top with
+              fresh strawberries before serving. Enjoy!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="d-grid gap-2 col-6 mx-auto my-5">
+        <button type="button" class="btn btn-success btn-lg">Share this Recipe</button>     
+       </section>
+    </main>
   </body>
 </html>
