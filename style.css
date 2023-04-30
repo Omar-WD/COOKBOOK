@@ -8,6 +8,8 @@
 
 /*lisa-main page*/ 
 
+
+
 .main-frame {
   width: 100vw;
   margin: 0;
@@ -70,6 +72,9 @@
   table-layout:fixed;
   word-wrap: break-word;
 }
+
+
+
 
 
 /*lisa-main-page-button*/
